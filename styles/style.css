@@ -9,53 +9,124 @@ strong {
     color: white;
 }
 
+.header{
+    display: flex;
+    justify-content:space-around;
+    justify-items:flex-start;
+    padding: 20px 55rem 0px 6rem;
+    
+}
+
+.header_index{
+    padding: 3px 6px 3px 6px;
+    border: 1.3px;
+    border-style: solid;
+    border-color: #F6F6F6;
+    border-radius: 10px;
+    color: #F6F6F6;
+    text-decoration: none;
+}
+.header_about{
+    border: 1.3px;
+    border-style: solid;
+    border-color: #F6F6F6;
+    border-radius: 10px;
+    color: #F6F6F6;
+    padding: 3px 6px 3px 6px;
+    text-decoration: none;
+}
+
 .main{
-    padding: 2.5rem;
+    padding: 0px 3rem 0px 3rem;
     display: flex;
     justify-content: space-between;
+   justify-items: center;
 }
 
 .main_esquerda{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 60%;
 }
 
 .esquerda_texto{
     font-family: "Montserrat", sans-serif;
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 30px 50px 25px 50px;
     font-size: 20px;
 }
 
 .esquerda_botao{
     display: flex;
-    justify-content: space-between;
-    
-    padding: 0px 13rem 0px 13rem;
+    justify-content: space-around;
+    padding: 0px 7rem 0px 6rem;
     font-family: "Roboto", sans-serif;
     
 }
 .esquerda_botao_insta{
-   
-    padding: 6px 25px 6px 25px;
+    flex-direction: column;
+   display: flex;
+   justify-content:space-around;
+    padding: 8px 25px 8px 25px;
     border: 1.3px;
     border-style: solid;
     border-color: #F6F6F6;
     border-radius: 10px;
     color: #F6F6F6;
-    font-size: 21px;
+    font-size: 17px;
     text-decoration: none;
 }
+.logo_insta{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    padding: 0px 0rem 0px 1.2rem;
+}
+
 .esquerda_botao_git {
-    
+    flex-direction: column;
+    display: flex;
+    justify-content:space-around;
     padding: 6px 25px 6px 25px;
     border: 1.3px;
     border-style: solid;
     border-color: #F6F6F6;
     border-radius: 10px;
     color: #F6F6F6;
-    font-size: 21px;
+    font-size: 17px;
     text-decoration: none;
+}
+.logo_git{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    padding: 0px 0px 0px 1rem;
+}
+
+.esquerda_botao_link{
+    flex-direction: column;
+    display: flex;
+    justify-content:space-around;
+    padding: 6px 25px 6px 25px;
+    border: 1.3px;
+    border-style: solid;
+    border-color: #F6F6F6;
+    border-radius: 10px;
+    color: #F6F6F6;
+    font-size: 17px;
+    text-decoration: none;
+}
+.logo_link{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    padding: 0px 0px 0px 0.9rem;
+}
+
+.imagem{
+    width: 30%;
+    height: 30%;
+    padding: 30px 50px 0px 0px;
 }
