@@ -29,7 +29,7 @@ strong {
     display: flex;
     justify-content:space-around;
     justify-items:flex-start;
-    padding: 20px 55rem 0px 6rem;
+    padding: 20px 64rem 0px 6rem;
     font-family: var(--fonte-botao);
 }
 
@@ -56,7 +56,7 @@ strong {
     padding: 0px 3rem 40px 3rem;
     display: flex;
     justify-content: space-between;
-   justify-items: center;
+    justify-items: center;
 }
 
 .main_esquerda{
@@ -152,38 +152,82 @@ strong {
 .imagem{
     width: 30%;
     height: 30%;
-    padding: 30px 50px 0px 0px;
+    border-radius: 18px;
 }
 .footer{
     background-color: var(--cor-secundaria);
     color: var(--cor-primaria);
     display: flex;
     justify-content: center;
-    padding: 1rem 0px 0.5rem 0px;
+    padding: 1.5rem 0px 1.8rem 0px;
     font-family: var(--fonte-botao);
 }
 
 /*
 Segunda Pagina
 */
+.about_main{
+    padding: 0px 3rem 40px 3rem;
+    display: flex;
+    justify-content: space-between;
+   
+    font-family: var(--fonte-extra);
+    font-weight: 100;
+    font-size: 11px;
+
+}
+
+.about_main_titulo{
+    padding: 0rem 0rem 1rem 3rem;
+    font-size: 27px;
+    color: var(--cor-texto);
+    font-family: var(--fonte-principal);
+}
 
 .about_main_esquerda{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 60%;
-    font-family: var(--fonte-extra);
-    font-weight: 100;
-    font-size: 13px;
-}
-.about_esquerda_texto{
-    display: flex;
-    flex-direction: column;
+    justify-content:center;
     
-
+    
+    align-content: start;    
 }
+
 .about_primeiro_paragrafo{
-    display: flex;
-    flex-direction: column;
-    padding: 15rem 0px 0px 0xp;
+    
+    padding: 2rem 0rem 0rem 3rem;
+   
+}
+
+.about_subtitulo1{
+    padding: 0rem 0rem 1rem 0rem;
+    font-size: 19px;
+    color: var(--cor-texto);
+    font-family: var(--fonte-principal);
+}
+
+
+.about_segundo_paragrafo{
+    padding: 3rem 0rem 5rem 3rem;
+    
+}
+
+.about_subtitulo2{
+    padding: 0rem 0rem 1rem 0rem;
+    font-size: 19px;
+    color: var(--cor-texto);
+    font-family: var(--fonte-principal);
+}
+
+.about_subtitulo2_1{
+    color: var(--cor-texto);
+    font-size: 15px;
+    font-family: var(--fonte-botao);
+    padding: 0rem 0rem 0.35rem 0rem;
+}
+.about_subtitulo2_2{
+    color: var(--cor-texto);
+    font-size: 15px;
+    font-family: var(--fonte-botao);
+    padding: 0.35rem 0rem 0rem 0rem;
 }
